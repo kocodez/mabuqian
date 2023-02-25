@@ -10,3 +10,5 @@ demo:https://tiddly-gittly.github.io/templatewiki/
 
 code:https://github.com/tiddly-gittly/templatewiki
 
+直接下载代码然后用太记打开更方便
+
