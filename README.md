@@ -10,5 +10,8 @@ demo:https://tiddly-gittly.github.io/templatewiki/
 
 code:https://github.com/tiddly-gittly/templatewiki
 
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/109711900/221370227-5839883b-3520-4b34-bc03-551f90bd6a49.png">
+
+
 直接下载代码然后用太记打开更方便
 
