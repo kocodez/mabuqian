@@ -13,5 +13,7 @@ code:https://github.com/tiddly-gittly/templatewiki
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/109711900/221370227-5839883b-3520-4b34-bc03-551f90bd6a49.png">
 
 
-直接下载代码然后用太记打开更方便
+直接下载代码然后用太记打开更方便。
+
+更新说明不放模板里面了，放github的commit里面。要查看更新内容就查看本仓库的commit情况。
 
