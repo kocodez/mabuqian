@@ -6,9 +6,9 @@
 
 条目旁边的打开列表和下面的节点丸，以及正文内容下面的箭头，都是自动生成的，也可以在级联的查看模板主体里调整。这些都是方便全屏时编辑或者查看。基本上不需要用到侧边栏的内容了。而且在移动端上的效果也还可以接受。
 
-demo:https://tiddly-gittly.github.io/templatewiki/
+demo:https://dongrentianyu.github.io/mabuqian/
 
-code:https://github.com/tiddly-gittly/templatewiki
+code:https://github.com/dongrentianyu/mabuqian
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/109711900/221370227-5839883b-3520-4b34-bc03-551f90bd6a49.png">
 
