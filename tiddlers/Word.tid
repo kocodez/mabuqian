@@ -1,0 +1,26 @@
+code-body: yes
+tags: $:/tags/QuestionTemplate
+title: Word
+tmap.id: 0504e43a-985e-4312-a009-ef410e893050
+type: text/vnd.tiddlywiki
+
+{{!!word}}
+<$reveal
+    state=<<folded-state>>
+    type="nomatch"
+    text="hide"
+    animate="yes"
+>
+    <div
+        class="tc-tiddler-body"
+    >
+        <main style="width:100%;overflow:hidden;">
+            <iframe
+                height="400px"
+                width="100%"
+                src={{{ [subfilter{$:/config/FishingCatchfish/annotateUrlFilter}] }}}
+                frameborder=0
+            />
+        </main>
+    </div>
+</$reveal>
