@@ -1,0 +1,19 @@
+caption: format-line-spacing/button
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+condition-disabled: [[format-line-spacing/button]get[state-disabled]else[no]]
+created: 20230316034833966
+creator: BramChen
+description: format-line-spacing/button
+icon: format-line-spacing
+modified: 20230316043743223
+modifier: 马不前
+tags: $:/tags/EditorToolbar
+title: format-line-spacing/button
+tmap.id: db12e73d-416f-4d8c-a56a-c8dde1fbaa18
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="insert-text"
+	$text=""
+/>
