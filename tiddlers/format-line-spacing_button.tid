@@ -1,0 +1,20 @@
+caption: 硬换行
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+condition-disabled: [[format-line-spacing/button/disabled]get[state-disabled]else[no]]
+created: 20230316034833966
+creator: BramChen
+description: 前面添加<br>以达到换行的效果
+icon: format-line-spacing
+modified: 20230316052037974
+modifier: 马不前
+tags: $:/tags/EditorToolbar
+title: format-line-spacing/button
+tmap.id: 141b3cb2-e910-4b0b-a936-354b3afefc36
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="prefix-lines"
+	character="<br>"
+	count="1"
+/>
