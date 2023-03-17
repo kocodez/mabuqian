@@ -1,0 +1,15 @@
+created: 20230317035440965
+creator: 马不前
+modified: 20230317054705591
+modifier: 马不前
+tags: 
+title: 横向开启栏
+tmap.id: 97c9d6cd-6f17-4bdf-afa4-d7f0edbb1fa8
+type: text/vnd.tiddlywiki
+
+<$list filter="[list<tv-story-list>]" history=<<tv-history-list>> storyview="pop">
+<$link to={{!!title}}><$view field='title'/></$link><$button message='tm-close-tiddler' tooltip={{$:/language/Buttons/Close/Hint}} aria-label={{$:/language/Buttons/Close/Caption}} class='tc-btn-invisible tc-btn-mini'>{{$:/core/images/close-button}}</$button>
+</$list>
+<$button message='tm-close-all-tiddlers' class='tc-btn-invisible'>
+,,^^全部关闭^^,,
+</$button>

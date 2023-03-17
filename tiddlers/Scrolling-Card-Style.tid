@@ -1,0 +1,72 @@
+created: 20230317035104636
+creator: 马不前
+modified: 20230317055044743
+modifier: 马不前
+tags: self-template
+title: Scrolling-Card-Style
+tmap.id: 63874029-8e80-468d-8021-2ed1e81dc5ce
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+\import [all[shadows+tiddlers]tag[$:/tags/Macro/View/Body]!has[draft.of]]
+
+<!--使用这个模板需要添加`横向开启栏`条目-->
+
+<style>
+ .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .layer1 {
+        background-color: #F0EAE7;
+				max-height: 100px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+				overflow: scroll;
+				text-align: center; /* 居中样式 */
+    }
+
+    .layer2 {
+        background-color: #ADD8E6;
+				max-height: 150px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+				overflow: scroll;
+				text-align: center; /* 居中样式 */
+    }
+
+    .layer3 {
+        background-color: #FFEFD5;
+        height: 300px;
+        width: 100%; /* 宽度为 120% */
+        overflow: scroll;
+        margin: 0;
+        padding: 1em;
+    }
+</style>
+
+<div class="container">
+    <div class="layer1">
+		<$transclude tiddler={{横向开启栏}} field=title mode=block/>
+		</div>
+    <div class="layer2">
+		<$transclude tiddler={{node-explorer-colorful}} field=title mode=block/>
+		</div>
+    <div class="layer3">
+		<$reveal tag="div" class="tc-tiddler-body" type="nomatch" stateTitle=<<folded-state>> text="hide" retain="yes" animate="yes">
+
+<$transclude tiddler=<<currentTiddler>> />
+
+<$button
+popup=<<qualify "$:/state/popup/fishingdeck">> tooltip="回到顶端" aria-label="回到顶端" class=<<tv-config-toolbar-class>> selectedClass="tc-selected" style="display: block;margin: auto;width: 40%;">
+<$action-navigate $to=<<currentTiddler>>/>
+{{$:/core/images/up-arrow}}
+</$button>
+</$reveal>
+</div>
+</div>

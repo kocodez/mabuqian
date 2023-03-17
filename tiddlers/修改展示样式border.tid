@@ -1,0 +1,23 @@
+created: 20230317051521330
+creator: 马不前
+modified: 20230317054256913
+modifier: 马不前
+tags: $:/tags/Stylesheet
+title: 修改展示样式border
+tmap.id: f1bba0b3-d4bf-447c-b3a9-f7b9af054085
+type: text/vnd.tiddlywiki
+
+.tc-tiddler-frame {
+    padding: 5px 10px 5px 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+		}
+.tc-tags-wrapper {
+    margin: 2px 0 0px 0;
+    margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
